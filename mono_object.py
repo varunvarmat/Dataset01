@@ -327,8 +327,8 @@ def render_scene(output_image_path, output_annotation_dir, material_dir, object_
 def main():
     type = "mono"
     version = "1.0"
-    material_dir = "data/data/materials"
-    object_dir = "data/data/shapes"
+    material_dir = "data/materials"
+    object_dir = "data/shapes"
     output_path = "output"
     output_image_dir = os.path.join(output_path,type,version,"images")#output/mono/1.0/images
     output_properties_dir = os.path.join(output_path,type,version,"properties")#output/mono/1.0/properties
